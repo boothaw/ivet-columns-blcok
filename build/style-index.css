@@ -1,0 +1,83 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-create-block-service-columns-block {
+  max-width: none;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+  background-color: #4c1717;
+  width: 90vw;
+}
+.wp-block-create-block-service-columns-block .services-columns {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.wp-block-create-block-service-columns-block .services-columns .service {
+  width: calc(50% - 30px);
+  box-sizing: border-box;
+  padding: 24px 0 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid rgba(245, 244, 224, 0.2);
+  transition: all 0.6s ease;
+}
+.wp-block-create-block-service-columns-block .services-columns .service i {
+  font-size: 28px;
+  color: rgba(245, 244, 244, 0.2);
+  margin-bottom: 0;
+  transition: all 0.6s ease;
+}
+.wp-block-create-block-service-columns-block .services-columns .service:hover {
+  border-bottom: 2px solid #dad589;
+}
+.wp-block-create-block-service-columns-block .services-columns .service:hover svg {
+  opacity: 1;
+}
+.wp-block-create-block-service-columns-block .services-columns .service:hover path {
+  fill: #dad589;
+}
+.wp-block-create-block-service-columns-block .services-columns .service:nth-of-type(odd) {
+  margin-right: 30px;
+}
+.wp-block-create-block-service-columns-block .services-columns .service:nth-of-type(even) {
+  margin-left: 30px;
+}
+.wp-block-create-block-service-columns-block .services-columns h3 {
+  font-size: 28px;
+  color: #dad589;
+  margin-bottom: 0;
+  text-transform: capitalize;
+}
+.wp-block-create-block-service-columns-block .services-columns svg {
+  width: 48px;
+  opacity: 0.2;
+  transition: all 0.6s ease;
+}
+@media screen and (max-width: 1024px) {
+  .wp-block-create-block-service-columns-block .services-columns {
+    flex-direction: column;
+  }
+  .wp-block-create-block-service-columns-block .services-columns .service {
+    width: 100%;
+  }
+  .wp-block-create-block-service-columns-block .services-columns .service:nth-of-type(odd) {
+    margin-right: 0;
+  }
+  .wp-block-create-block-service-columns-block .services-columns .service:nth-of-type(even) {
+    margin-left: 0;
+  }
+}
+
+/*# sourceMappingURL=style-index.css.map*/

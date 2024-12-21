@@ -1,0 +1,48 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/service-columns-block",
+	"version": "0.1.0",
+	"title": "Service Columns Block",
+	"category": "widgets",
+	"icon": "editor-ul",
+	"description": "Two Column List",
+	"example": {},
+	"supports": {
+		"align": {
+			"type": "string",
+			"default": "none"
+		},
+		"color": {
+			"background": true,
+			"text": true
+		},
+		"__experimentalBorder": {
+			"radius": true,
+			"color": true,
+			"width": true,
+			"style": true
+		},
+		"html": false,
+		"spacing": {
+			"margin": true,
+			"padding": true
+		},
+		"typography": {
+			"fontSize": true,
+			"lineHeight": true,
+			"__experimentalFontFamily": true,
+			"__experimentalFontStyle": true,
+			"__experimentalFontWeight": true,
+			"__experimentalTextTransform": true,
+			"__experimentalTExtDecoration": true,
+			"__experimentalLetterSpacing": true
+		}
+	},
+	"textdomain": "service-columns-block",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php",
+	"viewScript": "file:./view.js"
+}
